@@ -6,7 +6,7 @@ Link: https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1
 <br><br>
 
 
-# Lecture Content (강의 내용)
+# ✅ Lecture Content (강의 내용)
 
 ## Section 1. Understanding Web Applications
 
