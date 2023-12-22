@@ -19,7 +19,7 @@ public class MemberRepository {
     private static final MemberRepository instance = new MemberRepository();
 
     //싱글톤
-    protected static final MemberRepository getInstance() {
+    public static final MemberRepository getInstance() {
         return instance;
     }
 
