@@ -1,15 +1,21 @@
-package hello.servlet.web.frontcontroller.v3.controller;
+package hello.servlet.web.frontcontroller.v4.controller;
 
 import hello.servlet.web.frontcontroller.ModelView;
 import hello.servlet.web.frontcontroller.v3.ControllerV3;
-import org.springframework.context.annotation.Configuration;
+import hello.servlet.web.frontcontroller.v4.ControllerV4;
 
 import java.util.Map;
 
-public class MemberFormControllerV3 implements ControllerV3 {
+public class MemberFormControllerV4 implements ControllerV4 {
 
+    /**
+     *
+     * @param paramMap
+     * @param model
+     * @return
+     */
     @Override
-    public ModelView process(Map<String, String> paraMap) {
-        return new ModelView("new-form"); //new-form을 반환
+    public String process(Map<String, String> paramMap, Map<String, Object> model) {
+        return "new-form";
     }
 }
